@@ -138,11 +138,20 @@
 
 //Method 3
 
-function getPositive(arr) {
-  arr.filter((e) => e >= 0);
-}
+// function getPositive(arr) {
+//   return arr.filter((e) => e >= 0);
+// }
 
-let arr = [1, 2, -3, 4, 5, -1, 2, -5];
-let arr1 = [];
+// let arr = [1, 2, -3, 4, 5, -1, 2, -5];
+// let arr1 = [];
 
-getPositive(arr);
+// let res = getPositive(arr);
+// console.log(res);
+
+// const arr = [1, 2, 3, 4, 5, 6];
+// function addMapping(arr) {
+//   let res = arr.filter((element) => element > 2);
+//   return res;
+// }
+
+// console.log(addMapping(arr));
