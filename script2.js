@@ -15,18 +15,48 @@
 // let result = findMax(arr);
 // console.log(result);
 
-function findMax(arr) {
-  let max = arr[0];
+// #11: Print the first 10 Fibonacci numbers without recursion
 
-  for (let i of arr) {
-    if (max < arr[i]) {
-      max = arr[i];
-    }
-  }
+// let f0 = 0;
+// let f1 = 1;
+// for (i = 2; i <= 10; i++) {
+//   let fi = f1 + f0;
+//   f0 = f1;
+//   f1 = fi;
+//   console.log(fi);
+// }
 
-  return max;
-}
+// #12: Create a function that will find the nth Fibonacci number using recursion
 
-let arr = [1, 2, 3, 4, 5, -2, -5, 15, 10];
-let result = findMax(arr);
-console.log(result);
+// function findFibnocci(n) {
+//   if (n == 0) {
+//     return 0;
+//   }
+//   if (n == 1) {
+//     return 1;
+//   }
+
+//   return findFibnocci(n - 1) + findFibnocci(n - 2);
+// }
+
+// let result = findFibnocci(7);
+// console.log(result);
+
+// #13: Create a function that will return a Boolean specifying if a number is prime
+
+// function primeNumber(n) {
+//   if (n < 2) return false;
+//   if (n == 2) return true;
+//   let MaxDiv = Math.sqrt(n);
+//   for (let i = 2; i <= MaxDiv; i++) {
+//     if (n % i == 0) {
+//       return false;
+//     }
+//   }
+//   return true;
+// }
+
+// let result = primeNumber(3);
+// console.log(result);
+
+
